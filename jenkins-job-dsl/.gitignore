@@ -1,0 +1,9 @@
+.gradle
+build/
+out/
+*.iml
+.idea
+.DS_Store
+vagrant/.vagrant/
+vagrant/*.rpm
+vagrant/jenkins-cli.jar
