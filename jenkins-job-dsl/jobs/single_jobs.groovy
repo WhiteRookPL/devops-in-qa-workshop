@@ -36,7 +36,7 @@ job("$directory/built-simple") {
         }
     }
     steps {
-        shell(readFileFromWorkspace('jobs/scripts/test.sh'))
+        shell(readFileFromWorkspace('jenkins-job-dsl/jobs/scripts/test.sh'))
         gradle {
             useWrapper true
             tasks 'sayHello'
@@ -63,7 +63,7 @@ job("$directory/built-with-utils") {
     }
     configure requiredString('IMPORTANT_GIT_TAG')
     steps {
-        shell(readFileFromWorkspace('jobs/scripts/test.sh'))
+        shell(readFileFromWorkspace('jenkins-job-dsl/jobs/scripts/test.sh'))
         Steps.gradle(delegate, 'sayHello')
     }
     publishers {

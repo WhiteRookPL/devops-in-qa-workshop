@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SYNC_FOLDER=centos-jenkins-dsl/vagrant
+SYNC_FOLDER=centos-jenkins-dsl/jenkins-job-dsl/vagrant
 JENKINS_PORT=9001
 JENKINS_PASS=$( sudo cat /var/lib/jenkins/secrets/initialAdminPassword )
 

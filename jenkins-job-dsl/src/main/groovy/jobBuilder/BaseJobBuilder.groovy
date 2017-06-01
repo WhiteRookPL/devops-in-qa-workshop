@@ -12,7 +12,7 @@ class BaseJobBuilder {
     String repository
     String branch
     String gitTag
-    String dirWithScripts = 'jobs/scripts/'
+    String dirWithScripts = 'jenkins-job-dsl/jobs/scripts/'
     String script
     String directory
     String gradleTasks

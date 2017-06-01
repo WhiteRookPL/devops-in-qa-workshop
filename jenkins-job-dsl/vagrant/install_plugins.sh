@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-WORK_DIR=/home/vagrant/centos-jenkins-dsl/vagrant
+WORK_DIR=/home/vagrant/centos-jenkins-dsl/jenkins-job-dsl/vagrant
 JENKINS_PORT=9001
 NUMBER_OF_RETRIES=5
 INSTALL_BREAK=8

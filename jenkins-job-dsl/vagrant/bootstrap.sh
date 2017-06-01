@@ -4,7 +4,7 @@ JAVA_VERSION=1.8.0
 JENKINS_VERSION=2.62
 JENKINS_HOME=/var/lib/jenkins
 JENKINS_PORT=9001
-SYNC_FOLDER=centos-jenkins-dsl/vagrant
+SYNC_FOLDER=centos-jenkins-dsl/jenkins-job-dsl/vagrant
 
 # Default user for jenkins
 USER_NAME="admin2"
