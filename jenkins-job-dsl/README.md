@@ -13,7 +13,9 @@ This project was created in order to test Jenkins Job DSL plugin and to provide 
 
 ### Windows
 
-If you will install `vagrant` on *Windows* host, I would recommend to install *Cygwin* with `openssh` and `rsync` packages. You can find installer and instructions [here](https://cygwin.com/install.html). After that you will use *Cygwin* terminal for invoking all commands listed below.
+If you will install `vagrant` on *Windows* host, I would recommend to install *Cygwin* (default settings together with `openssh`, `git` and `rsync` packages). You can find installer and instructions [here](https://cygwin.com/install.html). After that you will use *Cygwin* terminal for invoking all commands listed below.
+
+Unfortunately useful and nice *Bash on Windows* will not help here, as we cannot start *VirtualBox* there. :sad:
 
 ### `vagrant` setup
 
