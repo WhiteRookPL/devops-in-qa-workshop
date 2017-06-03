@@ -1,0 +1,26 @@
+---
+driver:
+  name: vagrant
+
+platforms:
+  - name: ubuntu-16.04
+
+verifier:
+  name: inspec
+
+provisioner:
+  name: ansible_playbook
+  hosts: default-ubuntu-1604
+  require_ruby_for_busser: true
+  require_chef_for_busser: false
+  require_ansible_repo: true
+  ansible_verbose: false
+  ansible_verbosity: 1
+  ansible_version: latest
+  playbook: sample-playbook.yml 
+  
+suites:
+  - name: default
+    verifier:
+      inspec_tests:
+        - test/smoke/default
