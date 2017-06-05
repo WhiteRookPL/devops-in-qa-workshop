@@ -1,4 +1,4 @@
-# Testing *Ansible* baked *AWS AMI* by *Packer* by *Serverspec*
+# Testing with *Serverspec* an *AWS AMI* provisioned by *Ansible* and baked by *Packer*
 
 ## Purpose
 
