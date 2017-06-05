@@ -2,6 +2,8 @@
 
 ## Purpose
 
+*InSpec* is a compliance and validation tool that can be used as a test framework too. Main purpose is related with security audits, but it can be used as a replacement for `serverspec`.
+
 ## Usage 
 
 1. Install *VirtualBox*.
