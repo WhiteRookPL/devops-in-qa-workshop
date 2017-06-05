@@ -10,5 +10,5 @@
 
 ## Authors
 
-- [@Narrya](https://github.com/Narrya) and her [contact](kgawronska@white-rook.pl).
-- [@afronski](https://github.com/afronski) and his [contact](wgawronski@white-rook.pl).
+- [@Narrya](https://github.com/Narrya) and her [contact](mailto:kgawronska@white-rook.pl).
+- [@afronski](https://github.com/afronski) and his [contact](mailto:wgawronski@white-rook.pl).
