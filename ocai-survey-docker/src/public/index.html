@@ -4,13 +4,14 @@
 
         <link rel="stylesheet" type="text/css" href="pure-min.css" />
         <link rel="stylesheet" type="text/css" href="radar-chart.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
     </head>
     <body>
         <div id="layout">
             <div id="main">
                 <div class="header">
                     <h1>Ankieta <span id="who" hidden> - <span id="who_name"></span> <span id="who_surname"></span> (<span id="who_company"></span>)</span></h1>
-                    <h2>Analiza typu kultury organizacji (zespołu) - <em>DevOps in QA (Warsztaty)</em></h2>
+                    <h2>Analiza kultury organizacji (lub zespołu) przed transformacją - <em><strong>DevOps in QA (Warsztaty)</strong></em></h2>
                 </div>
                 <div class="content">
                     <div id="start_form" hidden>
@@ -28,7 +29,13 @@
                     <div id="survey_form" hidden>
                         <form class="pure-form">
                             <fieldset>
-                                <button id="submit" type="submit" class="pure-button pure-button-primary">Submit</button>
+                                <div id="survey_form_actual">
+                                </div>
+                                <div id="survey_form_preferred">
+                                </div>
+                                <div>
+                                    <button id="submit" type="submit" class="pure-button pure-button-primary">Submit</button>
+                                </div>
                             </fieldset>
                         </form>
                     </div>
