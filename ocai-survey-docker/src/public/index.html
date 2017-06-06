@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Ankieta</title>
+
+        <link rel="stylesheet" type="text/css" href="pure-min.css" />
+        <link rel="stylesheet" type="text/css" href="radar-chart.css" />
+    </head>
+    <body>
+        <div id="layout">
+            <div id="main">
+                <div class="header">
+                    <h1>Ankieta <span id="who" hidden> - <span id="who_name"></span> <span id="who_surname"></span> (<span id="who_company"></span>)</span></h1>
+                    <h2>Analiza typu kultury organizacji (zespołu) - <em>DevOps in QA (Warsztaty)</em></h2>
+                </div>
+                <div class="content">
+                    <div id="start_form" hidden>
+                        <form class="pure-form">
+                            <fieldset>
+                                <input id="start_name" type="name" placeholder="Name">
+                                <input id="start_surname" type="surname" placeholder="Surname">
+                                <input id="start_company" type="company" placeholder="Company">
+
+                                <button id="start" type="submit" class="pure-button pure-button-primary">Start</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div id="survey_form" hidden>
+                        <form class="pure-form">
+                            <fieldset>
+                                <button id="submit" type="submit" class="pure-button pure-button-primary">Submit</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div id="results_form" hidden>
+                        <div id="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="d3.v3.js"></script>
+        <script src="radar-chart.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>

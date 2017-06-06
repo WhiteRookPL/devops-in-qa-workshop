@@ -1,0 +1,24 @@
+{
+  "name": "ocai-survey",
+  "version": "1.0.0",
+  "description": "OCAI survey application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhiteRookPL/devops-in-qa-workshop/tree/master/ocai-survey-docker"
+  },
+  "keywords": [
+    "OCAI",
+    "devops",
+    "survey",
+    "node.js"
+  ],
+  "author": "Wojciech Gawroński",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.3"
+  }
+}
