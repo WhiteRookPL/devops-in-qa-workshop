@@ -186,7 +186,19 @@
 
         for(i = 1; i <= 6; ++i) {
             var elements = $a(".question.actual.q" + i);
-            var sum = elements.reduce(function (acc, element) { return acc + parseInt($s("input", element).value, 10); }, 0);
+            var sum = elements.reduce(function (acc, element) {
+                var value = parseInt($s("input", element).value, 10);
+
+                if (value < 0 || value > 100) {
+                    $s("label", element).classList.add("error-label");
+
+                    valid = false;
+                } else {
+                    $s("label", element).classList.remove("error-label");
+                }
+
+                return acc + value;
+            }, 0);
 
             if (sum !== 100) {
                 elements.forEach(function (element) {
@@ -203,7 +215,19 @@
 
         for(i = 1; i <= 6; ++i) {
             var elements = $a(".question.preferred.q" + i);
-            var sum = elements.reduce(function (acc, element) { return acc + parseInt($s("input", element).value, 10); }, 0);
+            var sum = elements.reduce(function (acc, element) {
+                var value = parseInt($s("input", element).value, 10);
+
+                if (value < 0 || value > 100) {
+                    $s("label", element).classList.add("error-label");
+
+                    valid = false;
+                } else {
+                    $s("label", element).classList.remove("error-label");
+                }
+
+                return acc + value;
+            }, 0);
 
             if (sum !== 100) {
                 elements.forEach(function (element) {
@@ -382,25 +406,31 @@
         });
 
         $("#start").addEventListener("click", function (event) {
-            event.target.setAttribute("disabled", true);
+            event.preventDefault();
 
             var name = $("#start_name").value;
             var surname = $("#start_surname").value;
             var company = $("#start_company").value;
+
+            if (!name || !surname || !company) {
+                alert("Proszę wypełnić wszystkie pola.");
+                return;
+            }
+
+            event.target.setAttribute("disabled", true);
 
             window.localStorage.setItem("user", name + "_" + surname + "_" + company);
 
             $("#start_form").setAttribute("hidden", true);
 
             startSurvey();
-
-            event.preventDefault();
         });
 
         $("#submit").addEventListener("click", function (event) {
-            if (!validate()) {
-                event.preventDefault();
+            event.preventDefault();
 
+            if (!validate()) {
+                alert("Proszę wypełnić wagi poprawnie.\nMaksymalna suma dla pojedynczej sekcji to 100, pojedyncze elementy muszą być z zakresu 0 do 100.");
                 return;
             }
 
@@ -415,8 +445,6 @@
             $("#survey_form").setAttribute("hidden", true);
 
             showResults(JSON.parse(results));
-
-            event.preventDefault();
         });
 
         if (!window.localStorage.getItem("user")) {

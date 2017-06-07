@@ -81,6 +81,10 @@ input[type=number].error {
     color: red;
 }
 
+.error-label {
+    color: red;
+}
+
 h3.header {
     margin-bottom: 10px;
 }
