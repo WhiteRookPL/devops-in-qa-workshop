@@ -17,10 +17,11 @@ provisioner:
   ansible_verbose: false
   ansible_verbosity: 1
   ansible_version: latest
-  playbook: sample-playbook.yml 
-  
+  playbook: sample-playbook.yml
+
 suites:
   - name: default
     verifier:
       inspec_tests:
         - test/smoke/default
+        - test/security/default
