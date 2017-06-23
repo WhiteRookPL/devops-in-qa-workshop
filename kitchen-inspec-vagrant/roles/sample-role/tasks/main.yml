@@ -3,3 +3,14 @@
   apt:
     name: nmap
     state: present
+
+- name: Install the package "httpd"
+  apt:
+    name: apache2
+    state: present
+
+- name: Enable and start the service
+  service:
+    name: apache2
+    state: started
+    enabled: true
