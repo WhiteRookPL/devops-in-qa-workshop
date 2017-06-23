@@ -15,7 +15,7 @@
 ```bash
 kitchen-inspec-vagrant $ chef exec gem install bundler
 kitchen-inspec-vagrant $ chef exec bundle install
-kitchen-inspec-vagrant $ kitchen test
+kitchen-inspec-vagrant $ chef exec kitchen test
 ```
 
 ### Windows
@@ -25,7 +25,7 @@ And now in order to test you need to invoke following commands:
 ```cmd
 C:\devops-in-qa\kitchen-inspec-vagrant> chef exec gem install bundler
 C:\devops-in-qa\kitchen-inspec-vagrant> chef exec bundle install
-C:\devops-in-qa\kitchen-inspec-vagrant> kitchen test
+C:\devops-in-qa\kitchen-inspec-vagrant> chef exec kitchen test
 ```
 
 ## References
