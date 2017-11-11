@@ -8,7 +8,7 @@ Purpose is to host application that renders and hosts interactive *OCAI* survey 
 
 1. Install `docker`.
 2. Invoke `build_image.sh` script.
-3. Invoke `launch.sh` script passing *Slack* integration token as a first argument.
+3. Invoke `launch.sh` script.
 
 ## References
 
