@@ -8,9 +8,9 @@ This project was created in order to test Jenkins Job DSL plugin and to provide 
 
 ## Requirements
 
-   vagrant:         [Instructions](https://www.vagrantup.com/docs/installation/)   
-   vagrant-vbguest: [Instructions](https://github.com/dotless-de/vagrant-vbguest)
-   virtualbox:      [Instructions](https://www.virtualbox.org/wiki/Downloads)
+- `vagrant`:         [Instructions](https://www.vagrantup.com/docs/installation/)   
+- `vagrant-vbguest`: [Instructions](https://github.com/dotless-de/vagrant-vbguest)
+- `virtualbox`:      [Instructions](https://www.virtualbox.org/wiki/Downloads)
    
 ## How to use
 
