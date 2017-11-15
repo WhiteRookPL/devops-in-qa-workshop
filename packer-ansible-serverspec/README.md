@@ -2,6 +2,10 @@
 
 ## Purpose
 
+<p align="center">
+   <img src="https://github.com/WhiteRookPL/devops-in-qa-workshop/raw/master/packer-ansible-serverspec/docs/diagram.png" />
+</p>
+
 ## Usage on *Linux*
 
 1. Install *packer*.
