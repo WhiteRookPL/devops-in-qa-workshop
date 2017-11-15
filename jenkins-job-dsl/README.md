@@ -2,7 +2,9 @@
 
 This project was created in order to test Jenkins Job DSL plugin and to provide local instance of Jenkins for experiments - before we deploy our jobs on production we need to check if they are working correctly. This repository is exactly that, after you set up everything you will get your own Jenkins instance on Centos 7 available at http://localhost:9001 with seed job pointing to this local git repository where you store your configuration.
 
-![Jenkins + Job DSL - Diagram](docs/diagram.png)
+<p align="center">
+   <img src="https://github.com/WhiteRookPL/devops-in-qa-workshop/raw/master/jenkins-job-dsl/docs/diagram.png" />
+</p>
 
 ## Requirements
    vagrant:         [Instructions](https://www.vagrantup.com/docs/installation/)   
