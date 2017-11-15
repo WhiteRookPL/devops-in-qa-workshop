@@ -2,6 +2,11 @@
 
 ## Purpose
 
+<p align="center">
+   <img src="https://github.com/WhiteRookPL/devops-in-qa-workshop/raw/master/kitchen-inspec-vagrant/docs/diagram.png" />
+</p>
+
+
 *InSpec* is a compliance and validation tool that can be used as a test framework too. Main purpose is related with security audits, but it can be used as a replacement for `serverspec`.
 
 ## Usage
