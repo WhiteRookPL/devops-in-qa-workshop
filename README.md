@@ -1,10 +1,16 @@
-# **DevOps in QA** - *Workshop*
+# How to introduce and maintain **DevOps** culture in **QA** environment? - *Workshop* and Materials
 
 ## Editions
 
 - [TestingCup 2017 (Gdańsk)](http://testingcup.pl)
 - [QualityExcites 2017 (Gliwice)](https://qualityexcites.pl/en)
 - [TestWarez 2017 (Toruń)](testwarez.pl)
+
+## Presentation and Materials
+
+- [Post-mortem Meeting (RPG session)](https://docs.google.com/document/d/1A6KENIN1ZtM3SEKPNmL_w5jwJhO_pWBlXP1Ob6CVG7I)
+- [Presentation](https://docs.google.com/presentation/d/16ChmUdFjzNKhhzGSVDy2vfSv5DuoPO4GCVv092smRGQ)
+- [OCAI Survey (application)](ocai-survey-docker/README.md)
 
 ## Examples
 
