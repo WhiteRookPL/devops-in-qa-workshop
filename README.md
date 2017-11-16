@@ -1,5 +1,11 @@
 # **DevOps in QA** - *Workshop*
 
+## Editions
+
+- [TestingCup 2017 (Gdańsk)](http://testingcup.pl)
+- [QualityExcites 2017 (Gliwice)](https://qualityexcites.pl/en)
+- [TestWarez 2017 (Toruń)](testwarez.pl)
+
 ## Examples
 
 1. *Slack* chat bot - `hubot` inside of `docker` container is [here](docker-hubot-slack/README.md).
